@@ -1,0 +1,459 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+}
+
+.container.nav-bar{
+      width: 100%;
+      height: 100px;
+      margin-top: 15px;
+}
+.container.nav-bar .box-img{
+      width: 20%;
+}
+.container.nav-bar .box-img img{
+      width: 270px;
+      height: 100px;
+      margin-top: 27px;
+}
+.container.nav-bar .menu{
+      width: 40%;
+}
+.container.nav-bar .menu ul{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      position: relative;
+      left: -20%;
+      /* margin-left: -90px; */
+}
+.container.nav-bar .menu ul li{
+      padding: 15px;
+      display: flex;
+      align-items: center;
+}
+.container.nav-bar .menu ul li a{
+      font-size: 16px;
+      text-decoration: none;
+      color: #3e3e3e;
+      margin-top: 15px;
+      margin-left: 20px;
+}
+.container.nav-bar .menu ul li a:hover{
+      color: #929090;
+}
+.container.nav-bar .menu-bar{
+      width: 40%;
+}
+.container.nav-bar .menu-bar ul{
+      list-style: none;
+      display: flex;
+      float: right;
+}
+.container.nav-bar .menu-bar ul li{
+      margin: 10px;
+      padding-top: 20px;
+}
+.container.nav-bar .menu-bar ul li a{
+      font-size: 16px;
+      text-decoration: none;
+      color: #3e3e3e;
+      margin-top: 40px;
+}
+.container.nav-bar .menu-bar ul li a:hover{
+      color: #929090;
+}
+.container.nav-bar .menu-bar ul li a.active{
+      color: #4c4b4c;
+      font-weight: 500;
+      font-size: 18px;
+}
+.container.nav-bar .bar-menu{
+      display: none;
+}
+
+/* =================[Box-banner]================ */
+.container.box-banner{
+      width: 90%;
+}
+.box-banner .b-banner{
+      line-height: 50px;
+      height: 500px;
+      background-image: url(sofa-bg-banner.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      object-fit: cover;
+      padding: 100px 0 150px 150px;
+}
+.box-banner .b-banner h1{
+      width: 270px;
+      font-size: 50px;
+      font-weight: 700;
+      color: #1b483dad;
+}
+.box-banner .b-banner button{
+      width: 200px;
+      border: none;
+      border: 2px solid #1b483dad;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #246c5fc4;
+}
+.box-banner .b-banner button:hover{
+      background-color: #246c5fb9;
+}
+
+/* ===================[box-content]================== */
+.box-content{
+      width: 100%;
+      height: 20rem;
+      margin-top: 20px;
+}
+.box-content .box-img{
+      width: 100%;
+      height: 330px;
+}
+.box-content .box-img img{
+      width: 100%;
+      height: 100%;
+}
+.box-content .back-img{
+      width: 100%;
+      height: 100%;
+      padding-left: 100px;
+      background-image: url(pic36-free-img.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      object-fit: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+.box-content .back-img{
+      width: 100%;
+      height: 100%;
+      background-image: url(pic36-free-img.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      object-fit: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+.box-content .b-img{
+      width: 100%;
+      height: 330px;
+}
+.box-content .b-img img{
+      width: 100%;
+      height: 100%;
+}
+.box-content .back-img h3{
+      color: #246c5fc4;
+}
+.box-content .back-img p{
+      color: #246c5fc4;
+}
+.box-content .back-img button{
+      border: none;
+      border: 2px solid #246c5fba;
+      width: 200px;
+      height: 45px;
+      font-size: 20px;
+      color: #246c5fc4;
+}
+.box-content .back-img button:hover{
+      background-color: #246c5fb1;
+}
+
+.box-ads{
+      width: 90%;
+      height: 15rem;
+}
+.box-ads .b-img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 80px;
+}
+.box-ads .b-img img{
+      width: 60px;
+      height: 60px;
+}
+.box-ads .b-img p{
+      color: #246c5fc4;
+}
+
+/* ===================[sale-product]================= */
+.sale-product{
+      width: 90%;
+      background-color: rgb(243, 243, 243);
+}
+.sale-product .b-img{
+      width: 100%;
+      height: 20rem;
+      background-image: url(sale-highlight-bg-banner.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 100px;
+}
+.sale-product .b-img h1{
+      color: #8b1414;
+      margin-bottom: 20px;
+}
+.sale-product .b-img h4{
+      color: #246c5fc4;
+}
+.sale-product .b-img button{
+      border: none;
+      border: 2px solid #246c5fba;
+      width: 150px;
+      padding: 10px;
+      font-size: 20px;
+      color: #246c5fc4;
+      margin-top: 20px;
+}
+.sale-product .b-img button:hover{
+      background-color: #246c5f78;
+}
+
+.our-late{
+      width: 90%;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.our-late h1{
+      position: relative;
+}
+.our-late h1::after{
+      content: ' ';
+      top: 60px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #6f7272c4;
+}
+/* ========================[box-card]===================== */
+.box-card{
+      width: 100%;
+      height: 30rem;
+}
+.box-card .box-flex .b-img{
+      height: 250px;
+}
+.box-card .box-flex .b-img img{
+      width: 100%;
+      cursor: pointer;
+}
+.box-card .box-flex .b-body{
+      width: 100%;
+      padding: 15px;
+}
+.box-card .box-flex .b-body p{
+      color: #246c5fc4;
+}
+.box-card .box-flex .b-body h5{
+      font-size: 18px;
+      color: #246c5fc4;
+}
+.box-card .box-flex .b-body h6{
+      font-size: 16px;
+}
+
+/* ===================[ Box-admin ]==================  */
+.box-admin{
+      width: 90%;
+      height: auto;
+      background-color: #ececec;
+      padding: 60px;
+}
+.box-admin .monial h1{
+      top: 40px;
+      position: relative;
+      text-align: center;
+}
+.box-admin .monial h1::after{
+      content: ' ';
+      top: 50px;
+      right: 41%;
+      position: absolute;
+      width: 200px;
+      height: 2px;
+      background-color: #6f7272c4;
+}
+.box-admin .box-profile{
+      margin-top: 40px;
+      display: flex;
+}
+.box-admin .box-profile .b-card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.box-admin .box-profile .b-card .b-flex{
+      
+      display: flex;
+      flex-direction: column;
+}
+.box-admin .box-profile .b-card .b-flex .b-body{
+      text-align: center;
+      margin-top: 40px;
+}
+.box-admin .box-profile .b-card .b-flex .b-body p{
+      font-size: 20px;
+      color: #0c0c0c;
+}
+.box-admin .box-profile .b-card .b-flex .b-img{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding-left: 40px;
+      margin-top: 20px;
+}
+.box-admin .box-profile .b-card .b-flex .b-img img{
+      width: 60px;
+      height: 60px;
+}
+/* ===========================[ foooter ]======================= */
+/* ========================[ contact ]==================== */
+
+.box-contact{
+      width: 95%;
+      height: 15rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 60px;
+      background-color: #ececec;
+      background-image: url(bg-social.jpg);
+      background-clip: unset;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      object-fit: cover;
+}
+.box-contact .bg-contact{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.box-contact .bg-contact .social{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.box-contact .bg-contact .social h2{
+      font-size: 27px;
+      color: #c0bfbf;
+}
+
+.box-contact .bg-contact .social ul{
+      list-style: none;
+      display: flex;
+}
+.box-contact .bg-contact .social ul li{
+      width: 40px;
+      height: 40px;
+      margin: 10px;
+      padding: 5px 0 0 10px;
+      font-size: 20px;
+      background-color: teal;
+}
+.box-contact .bg-contact .social ul li:hover{
+      background-color: #b4b3b3;
+}
+/* ========================[ list prodct ]==================== */
+.name-product{
+      width: 95%;
+      height: 12rem;
+      display: flex;
+      justify-content: center;
+     margin-top: 100px;
+}
+.name-product .list-product{
+      width: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.name-product .list-product .link-product ul{
+      list-style: none;
+}
+.name-product .list-product .link-product ul h6{
+      font-size: 20px;
+}
+.name-product .list-product .link-product ul li{
+      color: #246c5fc4;
+}
+.name-product .list-product .link-product ul li:hover{
+      color: #131313c4;
+}
+.name-product .list-product .link-product h6{
+      font-size: 24px;
+}
+.name-product .list-product .link-product button{
+      width: 150px;
+      border: none;
+      border: 2px solid #1b483dad;
+      margin-top: 15px;
+      font-size: 18px;
+      padding: 10px;
+      color: #246c5fc4;
+}
+.name-product .list-product .link-product button:hover{
+      background-color: #b0b3b2c4;
+}
+
+/* ============================[ by creater ]===================== */
+.by-devoloper{
+      width: 95%;
+      height: 7rem;
+      padding: 0 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #343333;
+}
+.by-box{
+      display: flex;
+      justify-content: space-between;     
+}
+.by-box p{
+      color: #dfe0e1cb;
+}

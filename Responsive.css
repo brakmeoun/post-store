@@ -1,0 +1,538 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+      .container.nav-bar{
+            width: 90%;
+            position: relative;
+            padding: 0 23px;
+      }
+      .container.nav-bar .box-img{
+            margin-bottom: 20px;
+      }
+      .container.nav-bar .box-img img{
+            width: 150px;
+            height: 30px;
+            margin-top: 20px;
+      }
+      .container.nav-bar .menu{
+            display: none;
+      }
+      .container.nav-bar .menu-bar{
+            display: none;
+      }
+      .container.nav-bar .bar-menu{
+            display: flex;
+            position: absolute;
+            width: 30px;
+            right: 10px;
+            top: 38px;
+      }
+      .container.nav-bar .bar-menu i{
+            font-size: 27px;
+            color: cadetblue;
+      }
+      /*========================= box-banner===================== */
+      .container.box-banner{
+            width: 90%;
+      }
+      .container.box-banner .b-banner{
+            height: 350px;
+            padding: 60px 0 0 40px;
+      }
+      .container.box-banner .b-banner h1{
+            width: 100px;
+            font-size: 34px;
+      }
+      .container.box-banner .b-banner button{
+            width: 180px;
+            height: 50px;
+            font-size: 16px;
+      }
+      .container.box-content{
+            width: 90%;
+            padding: 0;
+      }
+      .box-content .back-img{
+            height: 260px;
+      }
+      .box-content .back-img button{
+            width: 150px;
+            height: 40px;
+            font-size: 16px;
+            margin-top: 20px;
+      }
+      /*========================= box-ads ===================== */
+      .container.box-ads{
+            width: 90%;
+            margin-top: 180%;
+      }
+      .box-ads .b-img{
+           margin-top: 0px;
+      }
+      .box-ads .b-img p{
+            font-size: 14px;
+      }
+       /*========================= sale product ===================== */
+      .container.sale-product{
+            width: 90%;
+      }
+      .our-late h1{
+            font-size: 20px;
+      }
+      .our-late h1::after{
+            top: 25px;
+      }
+      .box-card .box-flex .b-img{
+            height: 160px;
+      }
+      .box-card .box-flex .b-body h5{
+            font-size: 14px;
+      }
+       /*========================= box-admin ===================== */
+      .container.box-admin{
+           width: 90%;
+           margin-top: 50%;
+     }
+     .box-admin .monial h1::after{
+           right: 30%;
+           width: 40%;
+     }
+     .box-admin .box-profile{
+            display: flex;
+            width: 200px;
+     }
+     .box-admin .box-profile .b-card .b-flex{
+            width: 300px;
+     }
+     .box-admin .box-profile .b-card .b-flex .b-body p{
+           font-size: 16px;
+           padding: 0 20px;
+     }
+      /* =========================== contact ======================== */
+      .container.box-contact{
+            margin-top: 20%;
+      }
+      
+     /* =========================== product ======================== */
+     .container.name-product{
+            width: 100%;
+            margin-top: 15%;
+            margin-left: -50px;
+     }
+     .name-product .list-product .link-product h6{
+            font-size: 18px;
+     }
+     /* =========================== By-devolop ====================== */
+     .by-devoloper{
+      margin-top: 20%;
+     }
+     .by-box p{
+            font-size: 14px;
+     }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+      .container.nav-bar{
+            width: 90%;
+            position: relative;
+      }
+      .container.nav-bar .box-img{
+            width: 20%;
+      }
+      .container.nav-bar .box-img img{
+            width: 150px;
+            height: 30px;
+            margin-bottom: 20px;
+      }
+      .container.nav-bar .menu{
+            display: none;
+      }
+      .container.nav-bar .menu-bar{
+            display: none;
+      }
+      .container.nav-bar .bar-menu{
+            display: flex;
+            position: absolute;
+            width: 30px;
+            right: 10px;
+            top: 38px;
+      }
+      .container.nav-bar .bar-menu i{
+            font-size: 27px;
+            color: cadetblue;
+      }
+      /*========================= box-banner ===================== */
+      .container.box-banner{
+            width: 90%;
+      }
+      .container.box-banner .b-banner{
+            height: 350px;
+            padding: 60px 0 0 40px;
+      }
+      .container.box-banner .b-banner h1{
+            width: 100px;
+            font-size: 34px;
+      }
+      .container.box-banner .b-banner button{
+            width: 180px;
+            height: 50px;
+            font-size: 16px;
+      }
+      /*========================= box-ads ===================== */
+      .box-ads{
+            width: 90%;
+            margin-top: 110%;
+      }
+      .box-ads .b-img{
+           margin-top: 0px;
+      }
+      .box-ads .b-img p{
+            font-size: 14px;
+      }
+
+      /*========================= box-content ===================== */
+      .content{
+            width: 90%;
+      }
+      .box-content .back-img{
+            height: 260px;
+      }
+      /*========================= sale product ===================== */
+      .sale-product .b-img{
+            background-position: right;
+      }
+      .our-late h1{
+            font-size: 20px;
+      }
+      .our-late h1::after{
+            top: 30px;
+      }
+      .box-card .box-flex .b-img{
+            height: 237px;
+      }
+      .box-card .box-flex .b-body h5{
+            font-size: 14px;
+      }
+       /*========================= box-admin ===================== */
+      .box-admin{
+            width: 90%;
+            margin-top: 40%;
+      }
+      .box-admin .monial h1::after{
+            right: 31%;
+      }
+      .box-admin .box-profile .b-card .b-flex{
+            width: 230px;
+            padding: 40px;
+      }
+      .box-admin .box-profile .b-card .b-flex .b-body p{
+            font-size: 14px;
+            margin-left: -10px;
+      }
+      .box-admin .box-profile .b-card .b-flex  .b-img{
+            margin-left: -25px;
+      }
+      /*========================= list-product ===================== */
+      .container.name-product{
+            width: 90%;
+            padding-left: 20px;
+      }
+      .name-product .list-product .link-product ul h6{
+            font-size: 14px;
+      }
+      .name-product .list-product .link-product h6{
+            font-size: 14px;
+      }
+      .name-product .list-product .link-product button{
+            width: 100px;
+            padding: -20px;
+            font-size: 14px;
+      }
+      .by-devoloper{
+            margin-top: 20%;
+           }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+      .container.nav-bar{
+            width: 90%;
+            position: relative;
+      }
+      .container.nav-bar .box-img{
+            width: 20%;
+            margin-bottom: 20px;
+            margin-left: 20px;
+      }
+      .container.nav-bar .box-img img{
+            width: 170px;
+            height: 40px;
+      }
+      .container.nav-bar .menu{
+            display: none;
+      }
+      .container.nav-bar .menu-bar{
+            display: none;
+      }
+      .container.nav-bar .bar-menu{
+            display: flex;
+            position: absolute;
+            width: 30px;
+            right: 20px;
+            top: 45px;
+      }
+      .container.nav-bar .bar-menu i{
+            font-size: 27px;
+            color: cadetblue;
+      }
+      /*========================= box-banner===================== */
+      .container.box-banner{
+            width: 90%;
+      }
+      .container.box-banner .b-banner{
+            height: 350px;
+            padding: 60px 0 0 40px;
+      }
+      .container.box-banner .b-banner h1{
+            width: 100px;
+            font-size: 34px;
+      }
+      .container.box-banner .b-banner button{
+            width: 180px;
+            height: 50px;
+            font-size: 16px;
+      }
+      .container.box-content{
+            width: 90%;
+      }
+      /*========================= box-ads===================== */
+      .container.box-ads{
+            width: 70%;
+            margin-top: -10%;
+      }
+      .box-ads .b-img{
+           margin-top: 0px;
+      }
+      .box-ads .b-img p{
+            font-size: 14px;
+      }
+      .container.sale-product{
+            width: 90%;
+      }
+      /*========================= box-===content================== */
+      .box-content .box-img{
+            height: 200px;
+      }
+      .our-late h1{
+            font-size: 20px;
+      }
+      .our-late h1::after{
+            top: 30px;
+      }
+      .box-card{
+            width: 90%;
+      }
+      .box-card .box-flex .b-img{
+            height: 340px;
+      }
+      .box-card .box-flex .b-body h5{
+            font-size: 18px;
+      }
+       /*========================= box-admin ===================== */
+       .box-admin{
+            width: 90%;
+            margin-top: 55%;
+      }
+      .box-admin .monial h1::after{
+            right: 36%;
+      }
+      .box-admin .box-profile .b-card .b-flex{
+            width: 230px;
+            padding: 30px;
+      }
+      .box-admin .box-profile .b-card .b-flex .b-body p{
+            font-size: 16px;
+      }
+
+      /*========================= list-product ===================== */
+      .name-product{
+            width: 90%;
+            padding-left: 20px;
+      }
+      .name-product .list-product{
+            margin-left: -60px;
+      }
+      .name-product .list-product .link-product ul h6{
+            font-size: 18px;
+      }
+      .name-product .list-product .link-product h6{
+            font-size: 18px;
+      }
+      .by-devoloper{
+            margin-top: 5%;
+           }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+      .container.nav-bar{
+            width: 90%;
+            position: relative;
+            display: flex;
+      }
+      .container.nav-bar .box-img{
+           width: 15%;
+      }
+      .container.nav-bar .box-img img{
+            width: 150px;
+            height: 30px;
+            margin-left: 10px;
+      }
+      .container.nav-bar .menu{
+            width: 45%;
+      }
+      .container.nav-bar .menu ul{
+            position: relative;
+            left: 5%;
+      }
+      .container.nav-bar .menu ul li{
+            padding: 10px;
+            margin: 10px;
+      }
+      .container.nav-bar .menu ul li a{
+            font-size: 14px;
+      }
+      /*========================= box-banner===================== */
+      .container.nav-bar .menu-bar{
+            width: 40%;
+      }
+      .container.nav-bar .menu-bar ul{
+            display: flex;
+            position: absolute;
+            right: 0;
+      }
+      .container.nav-bar .menu-bar ul li a{
+            font-size: 14px;
+            float: right;
+            margin-top: 20px;
+      }
+      .container.nav-bar .bar-menu{
+            display: none;
+      }
+      .container.box-banner{
+            width: 90%;
+      }
+      /*========================= box-ads===================== */
+      .container.box-ads{
+            width: 90%;
+            margin-top: -100px;
+      }
+
+      /*========================= box-content===================== */
+      .container.box-content{
+            width: 90%;
+      }
+      .box-content .box-img{
+            height: 250px;
+      }
+      .container.sale-product{
+            width: 90%;
+      }
+      .sale-product .b-img{
+            width: 95%;
+      }
+      .our-late h1{
+            font-size: 20px;
+      }
+      .our-late h1::after{
+            top: 30px;
+      }
+      .container.box-card{
+            width: 90%;
+      }
+      .box-card .box-flex .b-img{
+            height: 300px;
+      }
+      .box-card .box-flex .b-body h5{
+            font-size: 14px;
+      }
+       /*========================= box-admin ===================== */
+      .container.box-admin{
+            width: 90%;
+            margin-top: 45%;
+      }
+      .box-admin .monial h1::after{
+            right: 39%;
+      }
+      .box-admin .box-profile .b-card .b-flex{
+            width: 230px;
+            padding: 30px;
+      }
+      .box-admin .box-profile .b-card .b-flex .b-body p{
+            font-size: 16px;
+      }
+      .by-devoloper{
+            margin-top: 3%;
+           }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+      .container.nav-bar{
+            width: 100%;
+            position: relative;
+            padding: 0 23px;
+      }
+      .container.nav-bar .box-img{
+            width: 20%;
+      }
+      .container.nav-bar .box-img img{
+            width: 190px;
+            height: 40px;
+            margin-top: 20px;
+      }
+      .container.nav-bar .menu{
+           display: block;
+      }
+      .container.nav-bar .menu-bar{
+           display: block;
+      }
+      .container.nav-bar .bar-menu{
+            display: flex;
+            position: absolute;
+            width: 30px;
+            right: 20px;
+            top: 45px;
+      }
+      .container.nav-bar .bar-menu i{
+            font-size: 27px;
+            color: cadetblue;
+      }
+      .container.nav-bar .bar-menu{
+            display: none;
+      }
+      .container.box-banner{
+            width: 90%;
+      }
+      .container.box-content{
+            width: 90%;
+      }
+      .box-content .box-img{
+            height: 280px;
+      }
+      .sale-product{
+            width: 90%;
+      }
+      .our-late h1::after{
+            top: 50px;
+      }
+      .box-card .box-flex .b-img{
+            height: 245px;
+      }
+      .box-card .box-flex .b-body h5{
+            font-size: 14px;
+      }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
